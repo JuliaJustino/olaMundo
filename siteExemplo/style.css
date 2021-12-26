@@ -23,17 +23,16 @@ body{
     margin-top: 20%;
     background-color: black;
 }
-header{
-    background-color: white;
-    width: 80%;
-    height: 220px;
-    margin: 0px 0px 0px 10%;
-}
 
 div#ola{
     padding-top: 30px;
     animation:slideInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+}
+h1{
+    color: white;
+    font-size: 55pt;
+    box-shadow:  2px 2px 2px 1px rgb(255, 230, 0);
 }
 
 div#lorem{
